@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Match</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Taskbar -->
+    <nav class="taskbar">
+        <a href="#" class="logo" onclick="navigate('beranda')">
+            <img src="assets/images/perfect.png" alt="Perfect Match Logo" width="70px" height="50px">
+        </a>        
+        <div>
+            <a href="#" onclick="navigate('beranda')">Beranda</a>
+            <a href="#" onclick="navigate('butik')">Butik</a>
+            <a href="#" onclick="navigate('kontak')">Kontak</a>
+            <a href="#" onclick="navigate('pengetahuan')">Pengetahuan</a>
+            <a href="#" onclick="navigate('kalkulator')">Form Rekomendasi</a>
+        </div>
+    </nav>
+
+    <!-- Konten Utama -->
+   <!-- Photo Gallery in Beranda -->
+<section id="beranda" class="hero">
+    <h1>Welcome, Future Bride and Groom!</h1>
+    <p>Discover timeless elegance tailored to your style, where every detail celebrates your perfect fit. Let us guide you to the outfit that makes your special day truly unforgettable.</p>
+    <div class="photo-gallery">
+        <img src="assets/images/slider2.jpg" alt="Gaun A-Line" onclick="showPhotoDetail('gaun-a-line')">
+        <img src="assets/images/mermaid.jpg" alt="Gaun Mermaid" onclick="showPhotoDetail('gaun-mermaid')">
+        <img src="assets/images/sheath.jpg" alt="Gaun Sheath" onclick="showPhotoDetail('gaun-sheath')">
+    </div>
+</section>
+
+<!-- Individual Photo Descriptions -->
+<section id="gaun-a-line" class="hidden">
+    <h2>Gaun A-Line</h2>
+     <p>Gaun A-line adalah salah satu gaya gaun pengantin yang paling populer. Ciri khasnya adalah potongan yang melebar di bagian bawah, mirip huruf "A," yang memberikan tampilan elegan dan menawan. Gaun A-Line dikenal elegan, sederhana, dan cocok untuk berbagai bentuk tubuh.</p>  
+     <ul>
+     <li>Kelebihan : Membentuk siluet tubuh yang proporsional, Cocok untuk hampir semua bentuk tubuh terutama yang ingin menyamarkan area pinggul atau paha, Memberikan kebebasan bergerak karena tidak ketat di bagian bawah.</li>
+     <li>Cocok untuk : Semua tipe tubuh, termasuk tubuh pear (pinggul lebih besar daripada bagian atas).</li>
+    </ul>
+    <p></p>
+    <ul>
+    <p>Pemilihan warna gaun A-Line bisa disesuaikan untuk menonjolkan keindahan warna kulit:</p>
+        <li>Kulit Cerah/Pucat : Warna lembut seperti pastel (baby pink, lavender, mint) atau netral (ivory, putih tulang). Warna kontras seperti merah tua, navy, atau hijau zamrud untuk memberikan kesan hidup.</li>
+        <li>Kulit Sawo Matang : Warna hangat seperti cokelat keemasan, peach, oranye tua, terracotta, dan burgundy. Warna netral seperti krem, nude, dan olive green.</li>
+        <li>Kulit Gelap : Warna cerah seperti putih bersih, kuning mustard, biru terang, atau fuchsia. Warna mewah seperti emas, perak, merah marun, atau ungu tua.</li>
+        </ul>
+        <p></p>
+     <button onclick="navigate('beranda')">Kembali</button>  
+</section>
+
+<section id="gaun-mermaid" class="hidden">
+    <h2>Gaun Mermaid</h2>
+    <p>Gaun Mermaid adalah salah satu pilihan populer untuk pengantin yang ingin menonjolkan lekuk tubuh mereka. Ciri khas gaun ini adalah potongan yang ketat dari dada hingga lutut, lalu melebar seperti ekor ikan duyung, memberikan kesan anggun dan glamor.</p>
+    <ul>
+        <li>Kelebihan : Menonjolkan lekuk tubuh dengan indah, memberikan tampilan elegan dan dramatis, cocok untuk acara formal seperti pernikahan.</li>
+        <li>Cocok untuk : Tubuh berbentuk jam pasir (pinggang ramping dengan proporsi bahu dan pinggul seimbang) karena potongannya akan menekankan lekuk alami tubuh.</li>
+    </ul>
+    <p></p>
+    <ul>
+        <p>Pemilihan warna gaun Mermaid bisa disesuaikan untuk menonjolkan keindahan warna kulit :</p>
+        <li>Kulit Cerah/Pucat : Warna pastel seperti blush pink, champagne, atau ivory. Warna dramatis seperti merah anggur dan navy juga cocok.</li>
+        <li>Kulit Sawo Matang : Warna hangat seperti emas, terracotta, cokelat tua, atau burgundy.</li>
+        <li>Kulit Gelap : Warna terang seperti putih bersih, kuning emas, atau biru safir. Warna elegan seperti ungu tua atau perak juga menambah kesan mewah.</li>
+    </ul>
+    <p></p>
+    <button onclick="navigate('beranda')">Kembali</button>
+</section>
+
+<section id="gaun-sheath" class="hidden">
+    <h2>Gaun Sheath</h2>
+    <p>Gaun Sheath memiliki potongan lurus dari bahu hingga jatuh ke bawah tanpa banyak melebar. Desain ini memberikan tampilan minimalis, modern, dan cocok untuk pengantin yang menyukai kesan simpel namun elegan. Gaun sheath sering dipilih oleh pengantin atau pemakai yang ingin terlihat anggun dan ramping, terutama bagi mereka yang memiliki postur tubuh proporsional karena desain ini menonjolkan siluet tubuh.</p>
+    <ul>
+        <li>Kelebihan: Memberikan ilusi tubuh lebih tinggi dan ramping karena potongannya yang lurus. Cocok untuk acara pernikahan indoor atau outdoor.</li>
+        <li>Cocok untuk: Tubuh ramping dan tinggi atau tubuh mungil, karena desainnya tidak menambah volume dan membantu menciptakan siluet yang lebih panjang.</li>
+    </ul>
+    <p></p>
+    <ul>
+        <p>Pemilihan warna gaun Sheath bisa disesuaikan untuk menonjolkan keindahan warna kulit :</p>
+        <li>Kulit Cerah/Pucat: Warna netral seperti ivory, abu-abu muda, atau blush pink. Tambahan aksen renda atau glitter akan memperkaya tampilan.</li>
+        <li>Kulit Sawo Matang: Warna natural seperti nude, olive green, peach, atau cokelat keemasan.</li>
+        <li>Kulit Gelap: Warna berani seperti putih bersih, merah menyala, biru royal, atau emas. Warna metalik seperti perak juga memberikan kesan modern.</li>
+    </ul>
+    <p></p>
+    <button onclick="navigate('beranda')">Kembali</button>
+</section>
+
+    <section id="butik" class="hidden">
+        <h2>Butik</h2>
+        <p>Mencari butik untuk membuat jas dan gaun pernikahan yang tepat adalah langkah penting dalam memastikan tampilan anda sempurna pada hari spesial. Rekomendasi butik yang baik harus menawarkan layanan yang mencakup desain khusus, kualitas bahan yang baik, serta penjahit yang berpengalaman. Pastikan butik tersebut memiliki portofolio yang menunjukkan berbagai gaya dan desain gaun atau jas yang sesuai dengan selera anda. Selain itu, baca ulasan dari pelanggan sebelumnya dan cari tahu tentang reputasi butik untuk memastikan bahwa anda memilih tempat yang terpercaya dan memiliki pengalaman yang baik dalam mendukung pengantin.</p>
+        <p>Jangan sampai salah memilih butik. Perhatikan faktor seperti kualitas bahan, keahlian jahitan, dan kecocokan dengan gaya pribadi anda. Pastikan juga bahwa butik menawarkan sesi konsultasi yang memungkinkan anda untuk berdiskusi tentang detail desain dan menguji sampel sebelum memesan. Jangan ragu untuk bertanya tentang proses pembuatan, biaya tambahan, dan estimasi waktu selesai. Sebuah butik yang baik harus transparan dalam memberikan informasi ini agar anda merasa percaya diri dengan keputusan yang anda buat. Kami merekomendasikan beberapa butik terbaik yang wajib anda kunjungi dibawah ini :</p>
+        <h3>Butik Populer</h3>
+        <ul>
+            <li>Elora Bridal - Jl. Mahakam No.8, Kebayoran Baru, Jakarta Selatan, 12150.</li>
+            <li>The Bridal Room - Jl. Kemang Raya No.27, Jakarta Selatan, 12730.</li>
+            <li>Dewi Saroja Bridal - Jl. Jend. Sudirman Kav. 72, SCBD, Jakarta Selatan, 12190.</li>
+            <li>Cocoon Bridal & Atelier - Jl. Lebak Bulus IV No.5, Jakarta Selatan, 12440.</li>
+            <li>Delapan Padi - Jl. Cipete Raya No. 19A, Jakarta Selatan, 12410.</li>
+            <li>Fay Diane Bridal & Couture - Sumber Endah 74, Bandung, Jawa Barat, 40222.</li>
+            <li>Yong Hana Makeupart - Jl. Riau No. 7, Bandung, Jawa Barat, 40111.</li>
+            <li>Elleonora Shindy - Jl. Mekar Indah No. 34, Bandung, Jawa Barat, 40114.</li>
+            <li>Crystal Clarissa - Jl. Sumur Bandung No. 16, Bandung, Jawa Barat, 40112.</li>
+            <li>Debby Hardinata - Jl. Merdeka No. 65, Bandung, Jawa Barat, 40111.</li>
+            <li>Wedding Island - Jl. Sersan Bajuri No. 11, Bandung, Jawa Barat, 40133.</li>
+            <li>R'Jayanti MakeUp & Wedding Gallery - Jl. Dipatiukur No. 9, Bandung, Jawa Barat, 40132.</li>
+            <li>Bright by Maria Damayanti - Jl. Sultan Agung No. 45, Bandung, Jawa Barat, 40124.</li>
+            <li>Delapan Padi - Jl. Cipaganti No. 71, Bandung, Jawa Barat, 40141.</li>
+            <li>Fay Diane Bridal & Couture - Sumber Endah 74, Bandung, Jawa Barat, 40222.</li>
+        </ul>
+    </section>
+
+    <section id="kontak" class="hidden">
+        <h2>Kontak Kami</h2>
+        <p>Email : <a href="mailto:info@perfectmatch.com">info@perfectmatch.com</a></p>
+        <p>Telepon : +62 893-0510-7849</p>
+        <p>Alamat : Jl. Jendral Sudirman No.48, Jakarta Pusat, Indonesia</p>
+    </section>
+
+    <section id="pengetahuan" class="hidden">
+        <h2>Pengetahuan</h2>
+        <p>Ketahui lebih dalam tentang warna kulit, bentuk tubuh, serta kesehatan pengantin yang perlu dipertimbangkan sebelum pernikahan. Kami menyediakan informasi lengkap mengenai cara memilih gaun dan jas yang sesuai dengan warna kulit anda, tips merawat tubuh agar tetap bugar, serta pentingnya perjanjian pranikah untuk meminimalisir masalah di masa depan. Jelajahi topik-topik ini untuk membantu anda membuat keputusan yang bijak dan memastikan hari pernikahan anda berjalan sempurna.</p>
+        
+        <div class="photo-gallery">
+            <div class="knowledge-button" onclick="showKnowledge('kulit')">
+                <img src="assets/images/kulit.jpg" alt="Warna Kulit">
+                <p>Warna Kulit</p>
+            </div>
+            <div class="knowledge-button" onclick="showKnowledge('bentuk')">
+                <img src="assets/images/bentuk-icon.jpg" alt="Bentuk Tubuh">
+                <p>Bentuk Tubuh</p>
+            </div>
+            <div class="knowledge-button" onclick="showKnowledge('pernikahan')">
+                <img src="assets/images/pernikahan.jpg" alt="Perjanjian Pra Nikah">
+                <p>Perjanjian Pra Nikah</p>
+            </div>
+            <div class="knowledge-button" onclick="showKnowledge('kesehatan')">
+                <img src="assets/images/kesehatan-icon.jpg" alt="Kesehatan Pengantin">
+                <p>Kesehatan Pengantin</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="kulit" class="hidden">
+        <h2>Warna Kulit</h2>
+        <p>Memilih gaun dan jas pernikahan yang sesuai dengan warna kulit sangat penting untuk memastikan tampilan Anda tampak harmonis dan menawan di hari besar. Berikut adalah beberapa tips untuk memilih gaun dan jas yang paling cocok untuk berbagai warna kulit :</p>
+            <ul>
+            <p>1. Warna Kulit Cerah :</p>
+               <li>Warna Putih Murni atau Gading : Cocok untuk pengantin dengan kulit cerah atau pucat. Warna-warna ini memberikan kontras yang cantik dan menonjolkan kecantikan alami kulit.</li>
+               <li>Pilih Gaun dengan Aksen Emas atau Perak : Warna-warna hangat seperti emas atau perak dapat menambah kilau pada kulit cerah Anda.</li>
+               <li>Hindari Warna Terlalu Banyak : Untuk kulit cerah, hindari warna yang terlalu terang atau kontras tinggi seperti biru tua atau merah marun, karena bisa tampak mencolok.</li>
+             <p>2. Warna Kulit Sawo Matang atau Cokelat :</p>
+               <li>Gaun dengan Warna Hangat : Pilih warna-warna hangat seperti merah anggur, marun, atau biru laut yang bisa meningkatkan kecerahan kulit.</li>
+               <li>Aksesoris Emas atau Tembaga : Warna-warna ini cocok untuk menonjolkan rona kulit sawo matang dan memberikan tampilan yang elegan.</li>
+               <li>Hindari Putih Murni : Cobalah nuansa gading atau krem untuk memberikan kontras yang lebih lembut.</li>
+             <p>3. Warna Kulit Gelap :</p>
+               <li>Warna Cerah atau Netral : Pilih gaun dengan warna cerah seperti ivory, champagne, atau nuansa peach untuk menciptakan keseimbangan yang indah.</li>
+               <li>Warna Lembut seperti Pastel : Warna pastel seperti lavender atau mint bisa memberikan sentuhan lembut yang menyenangkan.</li>
+               <li>Aksesoris Emas atau Perak : Aksesoris seperti kalung atau headpiece berwarna emas atau perak bisa menambahkan keanggunan dan kecerahan pada tampilan keseluruhan.</li>
+            <p>Tips :</p>
+                <li>Coba Beberapa Pilihan : Sebelum memutuskan, cobalah beberapa gaun atau jas di bawah pencahayaan yang berbeda untuk melihat bagaimana mereka cocok dengan warna kulit Anda.</li>
+                <li>Perhatikan Kontras : Pilih gaun atau jas yang memberikan kontras lembut dengan warna kulit, bukan yang terlalu kontras.</li>
+                <li>Eksperimen dengan Aksesori : Gunakan aksesori yang bisa menambah warna dan kilau pada tampilan Anda, seperti tiara emas atau anting-anting perak.</li>
+            <p>Dengan memperhatikan warna kulit Anda, Anda dapat menemukan gaun atau jas pernikahan yang tidak hanya sesuai, tetapi juga membuat Anda merasa percaya diri dan cantik pada hari spesial.</p>
+                </ul>
+                <p></p>
+        <button onclick="navigate('pengetahuan')">Kembali</button>
+    </section>
+    
+    <section id="bentuk" class="hidden">
+        <h2>Bentuk Tubuh</h2>
+        <p>Memilih gaun dan jas pernikahan yang tepat sangat dipengaruhi oleh bentuk tubuh calon pengantin. Setiap bentuk tubuh memiliki karakteristik yang perlu dipertimbangkan agar hasil akhir terlihat cantik dan proporsional. Berikut adalah panduan untuk memilih gaun atau jas pernikahan berdasarkan bentuk tubuh, serta berat badan ideal dan tinggi badan yang direkomendasikan :</p>
+        <p>1. Bentuk Tubuh Pir (Sedang) :</p>
+        <ul>
+            <li>Ciri : Pinggul lebih lebar daripada bahu. Pinggang terlihat lebih kecil.</li>
+            <li>Tujuan : Fokus pada mengimbangi tubuh dengan menonjolkan bagian atas seperti bahu dan dada.</li>
+            <li>Gaun/Jas : Gaun A-line atau gaun dengan bahu terbuka dapat membantu menyeimbangkan tubuh. Hindari gaun yang terlalu ketat di bagian bawah. Jas model suit yang sedikit longgar di bagian pinggul bisa menjadi pilihan yang baik untuk bentuk tubuh pear. Jas ini membantu menciptakan keseimbangan visual antara bagian atas dan bawah tubuh tanpa menekankan perbedaan pinggul yang lebih lebar.</li>
+            <li>Berat Badan Ideal : 50-70 kg (tergantung tinggi badan)</li>
+            <li>Tinggi Badan Ideal : 155-175 cm</li>
+        </ul>
+        <p>2. Bentuk Tubuh Apel (Berisi) :</p>
+        <ul>
+            <li>Ciri : Lebih banyak berat badan terkumpul di bagian perut dan pinggang. Bahu dan pinggul kurang menonjol.</li>
+            <li>Tujuan : Mengalihkan perhatian dari perut dan menonjolkan bahu dan kaki.</li>
+            <li>Gaun/Jas : Pilihlah gaun A-line, gaun dengan potongan empire, atau gaun sheath yang tidak terlalu ketat di bagian perut, untuk menyeimbangkan tubuh. Pilihlah jas dengan potongan yang lebih longgar di bagian perut, seperti model suit atau tuxedo dengan struktur bahu untuk menambahkan volume di bagian atas tubuh dan menghindari penekanan pada area perut yang lebih lebar. Jas slim fit dapat mempertegas pinggul dan perut yang lebih lebar, jadi hindarilah jika tidak nyaman.</li>
+            <li>Berat Badan Ideal : 55-75 kg (tergantung tinggi badan)</li>
+            <li>Tinggi Badan Ideal : 160-175 cm</li> 
+        </ul>
+        <p>3. Bentuk Tubuh Segitiga Terbalik (Langsing):</p>
+        <ul>
+            <li>Ciri : Bahu lebih lebar dibanding pinggul, kaki panjang dan ramping. Pinggul cenderung lebih sempit dibandingkan dengan bagian atas tubuh dan berat badan biasanya terkumpul di bagian atas tubuh.</li>
+            <li>Tujuan : Menyeimbangkan tubuh dengan mengalihkan perhatian dari bahu ke pinggul.</li>
+            <li>Gaun/Jas : Pilihlah gaun dengan detail pada bagian bawah seperti gaun mermaid atau gaun sheath yang menyeimbangkan bagian atas dan bawah tubuh. Jas double-breasted atau model suit dengan tali pinggang bisa membantu menambah volume di bagian bawah tubuh dan menyeimbangkan bahu yang lebih lebar. Jas slim fit juga cocok untuk menonjolkan bahu dan dada tanpa menekankan pinggul yang lebih kecil.</li>
+            <li>Berat Badan Ideal : 50-70 kg (tergantung tinggi badan)</li>
+            <li>Tinggi Badan Ideal : 160-180 cm</li> 
+        </ul>
+        <p>Tips :</p>
+        <ul>
+            <li>Pilih Gaun yang Meningkatkan Kelebihan : Fokuskan pada bagian tubuh yang ingin ditonjolkan. Misalnya, jika ingin menonjolkan bahu, pilih gaun dengan lengan terbuka atau tali yang menarik perhatian ke bagian atas tubuh.</li>
+            <li>Perhatikan Kain : Pilih bahan yang cocok dengan bentuk tubuh anda. Bahan tebal seperti satin bisa memberi bentuk dan membantu menyamarkan kekurangan pada tubuh tertentu.</li>
+            <li>Percaya Diri: Pilih pakaian yang membuat anda merasa percaya diri dan nyaman. Semua bentuk tubuh itu cantik dan yang terpenting adalah anda merasa bahagia dengan pilihan anda.</li>
+        </ul>
+        <p></p>
+        <button onclick="navigate('pengetahuan')">Kembali</button>
+    </section>
+    
+    <section id="pernikahan" class="hidden">
+        <h2>Perjanjian Pra Nikah</h2>
+        <p>Perjanjian pranikah adalah dokumen hukum yang penting untuk dipertimbangkan oleh para calon pengantin sebelum memasuki pernikahan. Tujuan utama dari perjanjian ini adalah untuk mencegah konflik besar di masa depan dengan menetapkan aturan dan kesepakatan yang jelas mengenai pembagian aset, tanggung jawab rumah tangga, dan pengelolaan keuangan. Bagi banyak pasangan, perjanjian pranikah juga bisa menjadi sarana untuk mendiskusikan harapan, tujuan, dan prioritas hidup bersama. Beberapa poin umum yang biasanya dimasukkan dalam perjanjian pranikah meliputi :</p>
+        <ul>
+            <li>Pembagian Keuangan : Menyusun aturan jelas tentang pengelolaan uang, tabungan, investasi, dan utang.</li>
+            <li>Kepemilikan Aset : Menentukan bagaimana aset pribadi dan bersama akan dibagi jika terjadi perceraian atau kematian salah satu pihak.</li>
+            <li>Tanggung Jawab Rumah Tangga : Menyepakati siapa yang bertanggung jawab untuk urusan rumah tangga seperti memasak, membersihkan, merawat anak, serta berbagi tugas lainnya.</li>
+            <li>Perencanaan Masa Depan : Mendiskusikan rencana jangka panjang seperti karir, pendidikan anak, dan gaya hidup yang diinginkan bersama.</li>
+            <li>Warisan dan Hibah: Menyusun ketentuan tentang bagaimana warisan, hibah, atau perencanaan estate akan diatur, serta memastikan bahwa semua aset keluarga terkelola dengan baik jika terjadi sesuatu yang tidak diinginkan.</li> 
+            <li>Hak Asuh Anak : Membicarakan bagaimana hak asuh anak akan diatur jika terjadi perceraian, termasuk kesepakatan tentang pendidikan, pola asuh, dan pemeliharaan.</li>
+            <li>Keputusan Medis : Menyepakati siapa yang bertanggung jawab dalam pengambilan keputusan medis jika salah satu pihak tidak mampu melakukannya.</li>
+            <li>Pengaturan tentang Aset Pribadi: Menentukan apakah ada aset pribadi yang tidak terlibat dalam perjanjian pernikahan.</li>
+        </ul>
+        <p>Memiliki perjanjian pranikah yang jelas membantu para calon pengantin untuk meminimalkan risiko konflik, menghindari kesalahpahaman di kemudian hari, dan memastikan bahwa mereka memiliki visi yang sejalan tentang masa depan pernikahan mereka. Perjanjian ini tidak hanya melindungi hak-hak individu, tetapi juga memperkuat fondasi hubungan yang sehat dan harmonis.</p>
+        <p></p>
+        <button onclick="navigate('pengetahuan')">Kembali</button>
+    </section>
+    
+    <section id="kesehatan" class="hidden">
+        <h2>Kesehatan Pengantin</h2>
+        <p>Kesehatan pengantin adalah aspek yang sangat penting untuk dipersiapkan sebelum dan setelah pernikahan, karena mempengaruhi kualitas kehidupan pernikahan dan kesiapan untuk memulai keluarga di masa depan. Kesehatan pengantin mencakup berbagai hal mulai dari pola makan seimbang, olahraga teratur, manajemen stres, hingga pemeriksaan kesehatan rutin. Calon pengantin perlu memahami bahwa menjaga kesehatan adalah investasi jangka panjang yang membantu menjaga kebugaran tubuh, meningkatkan kesuburan, dan mengurangi risiko penyakit kronis. Nutrisi yang baik, termasuk makanan bergizi dengan porsi yang tepat, sangat penting untuk mendukung energi tubuh dan kesehatan secara keseluruhan. Beberapa poin penting yang harus diketahui oleh calon pengantin antara lain adalah :</p>
+        <ul>
+            <li>Pola Makan Seimbang : Mengonsumsi makanan bergizi dengan porsi yang tepat untuk mendukung energi tubuh dan memperkuat sistem kekebalan. Menghindari makanan olahan, gula berlebih, dan fokus pada konsumsi sayuran, buah-buahan, protein sehat, dan biji-bijian.</li>
+            <li>Olahraga Teratur : Melakukan aktivitas fisik secara teratur untuk meningkatkan kebugaran, menjaga berat badan ideal, dan mengurangi risiko penyakit kronis seperti diabetes dan tekanan darah tinggi. Pilih jenis olahraga yang disukai agar lebih mudah konsisten melakukannya.</li>
+            <li>Manajemen Stres : Stres dapat berdampak negatif pada kesehatan fisik dan mental. Penting untuk mengelola stres dengan cara yang sehat seperti meditasi, olahraga, atau berbicara dengan orang yang dipercaya.</li>
+            <li>Pemeriksaan Kesehatan Rutin : Melakukan pemeriksaan kesehatan rutin seperti tes darah, cek tekanan darah, dan pemeriksaan gigi untuk mendeteksi masalah kesehatan sejak dini.</li>
+            <li>Kunjungan Ke Dokter Spesialis: Calon pengantin perlu berkonsultasi dengan dokter spesialis terkait kondisi kesehatan tertentu, seperti dokter kandungan atau ahli gizi, untuk mendapatkan saran yang lebih spesifik terkait rencana reproduksi dan kesehatan secara keseluruhan.</li> 
+            <li>Cukup Istirahat : Tidur yang cukup sangat penting untuk menjaga kesehatan tubuh dan mental. Pastikan mendapatkan waktu tidur yang berkualitas setiap malam.</li>
+            <li>Hindari Kebiasaan Buruk: Menjauhi kebiasaan buruk seperti merokok, alkohol berlebih, dan narkoba yang dapat merusak kesehatan secara keseluruhan dan mempengaruhi kesuburan.</li>
+            <li>Pendidikan Reproduksi: Memahami siklus menstruasi, kesehatan reproduksi, dan perlindungan terhadap penyakit menular seksual dapat membantu calon pengantin untuk merencanakan kehamilan dengan lebih baik di masa depan.</li>
+        </ul>
+        <p>Menjaga kesehatan sebelum pernikahan adalah investasi jangka panjang yang berkontribusi pada kebahagiaan pasangan dan memungkinkan mereka untuk menjalani kehidupan pernikahan dengan penuh vitalitas dan kesiapan untuk memulai keluarga.</p>
+        <p></p>
+        <button onclick="navigate('pengetahuan')">Kembali</button>
+    </section>    
+
+    <section id="kalkulator" class="hidden">
+        <h2>Rekomendasi</h2>
+        <div class="calculator">
+            <form id="form-rekomendasi">
+                <label for="gender">Jenis Kelamin:</label>
+                <select id="gender">
+                    <option value="male">Laki-Laki</option>
+                    <option value="female">Perempuan</option>
+                </select><br><br>
+    
+                <label for="skin">Warna Kulit:</label>
+                <select id="skin">
+                    <option value="fair">Putih</option>
+                    <option value="tan">Kuning Langsat</option>
+                    <option value="dark">Sawo Matang</option>
+                </select><br><br>
+    
+                <label for="body">Bentuk Tubuh:</label>
+                <select id="body">
+                    <option value="slim">Langsing</option>
+                    <option value="average">Sedang</option>
+                    <option value="curvy">Berisi</option>
+                </select><br><br>
+    
+                <label for="height">Tinggi Badan (cm):</label>
+                <input type="number" id="height" min="100" max="250"><br><br>
+    
+                <label for="weight">Berat Badan (kg):</label>
+                <input type="number" id="weight" min="30" max="200"><br><br>
+    
+                <button type="button" onclick="calculate()">Submit</button>
+            </form>
+    
+            <!-- Section to display results -->
+            <div id="result-section" class="hidden">
+                 <h3>Hasil Rekomendasi</h3>
+                 <p id="explanation">Isi formulir di atas untuk mendapatkan saran gaun dan jas terbaik berdasarkan data Anda.</p>
+                 <h4>Detail Data Anda :</h4>
+                 <p id="detail"></p>
+                 <img id="recommendation-image" src="" alt="Rekomendasi" class="hidden">
+                <button onclick="resetForm()">Kembali</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="brand-info">
+                <h2>Perfect Match</h2>
+                <p>Rekomendasi Jas dan Gaun Pengantin</p>
+            </div>
+            <div class="social-icons">
+                <a href="https://wa.me/6289616302368" class="icon"><img src="assets/images/whatsapp-icon.png" alt="WhatsApp"></a>
+                <a href="https://www.instagram.com/yourprofile" class="icon"><img src="assets/images/instagram-icon.png" alt="Instagram"></a>
+                <a href="https://twitter.com/yourprofile" class="icon"><img src="assets/images/twitter-icon.png" alt="Twitter"></a>
+                <a href="https://www.facebook.com/yourprofile" class="icon"><img src="assets/images/facebook-icon.png" alt="Facebook"></a>
+                <a href="https://www.linkedin.com/in/yourprofile" class="icon"><img src="assets/images/linkedin-icon.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Perfect Match &copy; 2024. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function showPhotoDetail(photoId) {
+    // Sembunyikan semua seksi
+    document.querySelectorAll('section').forEach(sec => {
+        sec.classList.add('hidden');
+    });
+
+    // Tampilkan seksi sesuai foto yang dipilih
+    document.getElementById(photoId).classList.remove('hidden');
+}
+
+
+function calculate() {
+        const gender = document.getElementById('gender').value;
+        const skin = document.getElementById('skin').value;
+        const body = document.getElementById('body').value;
+        const height = document.getElementById('height').value;
+        const weight = document.getElementById('weight').value;
+
+        let explanation = '';
+        let detailText = `Jenis Kelamin: ${gender === 'male' ? 'Laki-Laki' : 'Perempuan'}\nWarna Kulit: ${skin}\nBentuk Tubuh: ${body}\nTinggi Badan: ${height} cm\nBerat Badan: ${weight} kg`;
+        let imageUrl = '';
+
+        if (gender === 'male') {
+            if (body === 'slim') {
+                explanation = `Anda adalah laki-laki dengan tubuh langsing dan kulit ${skin}. Anda cocok dengan jas slim-fit berwarna gelap seperti hitam atau biru navy.`;
+                imageUrl = 'assets/images/slider3.jpg'; // Ganti dengan URL gambar jas slim-fit
+            } else if (body === 'average') {
+                explanation = `Anda adalah laki-laki dengan bentuk tubuh sedang dan kulit ${skin}. Jas dengan potongan klasik berwarna abu-abu muda akan cocok.`;
+                imageUrl = 'assets/images/suit.jpg'; // Ganti dengan URL gambar jas klasik
+            } else if (body === 'curvy') {
+                explanation = `Anda adalah laki-laki dengan tubuh berisi dan kulit ${skin}. Pilihlah jas dengan potongan yang lebih longgar.`;
+                imageUrl = 'assets/images/slider5.jpg'; // Ganti dengan URL gambar jas longgar
+             }
+            } else {
+            if (body === 'slim') {
+                explanation = `Anda adalah perempuan dengan tubuh langsing dan kulit ${skin}. Gaun A-line berwarna pastel akan sangat cocok untuk Anda.`;
+                imageUrl = 'assets/images/slider2.jpg'; // Ganti dengan URL gambar gaun A-line
+            } else if (body === 'average') {
+                explanation = `Anda adalah perempuan dengan bentuk tubuh sedang dan kulit ${skin}. Gaun dengan potongan empire-line atau ball gown akan memberikan tampilan yang anggun.`;
+                imageUrl = 'assets/images/sheath.jpg'; // Ganti dengan URL gambar gaun empire
+            } else if (body === 'curvy') {
+                explanation = `Anda adalah perempuan dengan tubuh berisi dan kulit ${skin}. Gaun mermaid berwarna cerah akan menonjolkan lekuk tubuh Anda.`;
+                imageUrl = 'assets/images/slider1.jpg'; // Ganti dengan URL gambar gaun mermaid
+            }
+        }
+
+        document.getElementById('explanation').textContent = explanation;
+        document.getElementById('detail').textContent = detailText;
+        document.getElementById('recommendation-image').src = imageUrl;
+        document.getElementById('recommendation-image').classList.remove('hidden');
+
+        // Hide the form and show the result section
+        document.getElementById('form-rekomendasi').classList.add('hidden');
+        document.getElementById('result-section').classList.remove('hidden');
+    }
+
+    function resetForm() {
+    // Reset form fields
+    document.getElementById('form-rekomendasi').reset();
+
+    // Sembunyikan hasil rekomendasi
+    document.getElementById('result-section').classList.add('hidden');
+
+    // Tampilkan form rekomendasi
+    document.getElementById('form-rekomendasi').classList.remove('hidden');
+    }
+        
+        function navigate(section) {
+    // Sembunyikan semua seksi
+    document.querySelectorAll('section').forEach(sec => {
+        sec.classList.add('hidden');
+        });
+
+        // Tampilkan seksi yang dipilih
+        document.getElementById(section).classList.remove('hidden');
+    }
+
+    function showKnowledge(topic) {
+        // Navigasi langsung ke topik tertentu
+        navigate(topic);
+    }
+        
+    </script>
+
+        <script src="app.js"></script>
+</body>
+</html>
